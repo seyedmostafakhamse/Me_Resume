@@ -3,10 +3,18 @@ import { FaDownload } from "react-icons/fa6";
 import toast, { Toaster } from "react-hot-toast";
 import TypingEffect from "../TypingEffect/TypingEffect";
 import rez from "../../assets/images/Portfolio/AmirAliKhalili.pdf";
-import me from "../../assets/images/Portfolio/me.webp"
+import me from "../../assets/images/Portfolio/sed-1.webp"
 function Hero() {
-  const skills = ["گرافیست", "متخصص هوش مصنوعی", "موشن گرافیست", "ui design"];
-
+const skills = [
+  "مدیریت و رهبری تیم خلاق",
+  "کارگردانی هنری و خلاق",
+  "هوش مصنوعی و تکنولوژی‌های خلاق",
+  "برندینگ و هویت بصری",
+  "موشن دیزاین",
+  "طراحی UI/UX",
+  "داستان‌گویی بصری",
+  "توسعه و مدیریت پروژه‌های رسانه‌ای"
+];
   return (
     <section id="hero" className="z-10 pt-15">
       <div className="flex justify-center items-center lg:justify-between flex-col-reverse lg:flex-row min-h-125 w-auto md:mx-auto">
